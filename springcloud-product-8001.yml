@@ -54,7 +54,7 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port} # 等价于microservice-product:8001
     prefer-ip-address: true #访问路径就会显示成IP地址
-    
+
 server:
   port: 8004
 spring:
@@ -96,7 +96,6 @@ spring:
           enabled: true
 mybatis-plus:
   type-aliases-package: com.zhouwei.springcloud.entity
-
 eureka:
   client:
     registerWithEureka: true # 服务注册开关
